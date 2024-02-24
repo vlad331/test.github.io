@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --index: calc(1vw + 1vh);
+}
+@font-face {
+    font-family: merriweather-3d;
+    src: url(../fonts/merriweather-regular-italic.woff2);
+}
+body{
+    background-color: #4f5897;
+    min-width: 100%;
+    min-height: 100%;
+}
+footer{
+    background-color: #4f5897;
+    min-width: 100%;
+    min-height: 100%;
+}
+.main__container{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.main__container__image{
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%;
+}
+.main__container__text{
+    max-width: 40%;
+    font-family: merriwearher-3d;
+    color: #bfa5a6;
+    text-align: left;
+}
+.main__container__text h1{
+    font-size: 3em;
+    margin-top: 5%;
+}
+.main__container__text h4{
+    font-size: 2em;
+    margin-top: 10%;
+}
+.main__container__text li{
+    font-size: 1.3em;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+.rofl_rec{
+    position: relative;
+    margin-top: 7%;
+    margin-left: 40%;
+    color:#bfa5a6;
+}

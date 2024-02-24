@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <script src="libs/rain.js" defer></script>
+</head>
+<header>
+    <div class="logo" style="background-image: url(images/logo.svg);"></div>
+    <section class="layers">
+        <div class="layers__container">
+            <div class="layers__item layers-1" style="background-image: url(images/layer-1.jpg);"></div>
+            <div class="layers__item layers-2" style="background-image: url(images/layer-2.png);"></div>
+            <div class="layers__item layers-3">
+                <div class="main-text">
+                    <h1>Minecraft <span>My Wiki</span></h1>
+                    <div class="text__p" id = '#'>This is my first Wiki</div>
+                </div>
+            </div>
+            <div class="layers__item layers-4">
+                <canvas class="rain"></canvas>
+            </div>
+            <div class="layers__item layers-5" style="background-image: url(images/layer-5.png);"></div>
+            <div class="layers__item layers-6" style="background-image: url(images/layer-6.png);"></div>
+        </div>
+    </section>
+    <nav>
+        <div id="navbar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#gallery_scroll">Entities</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="about-minecraft" id = "about">   
+        <h1>Types Mobs and stats</h1>
+    </div>
+    <div class="gallery" id= "gallery_scroll">
+        <h1 class="gallery__caption">Entites</h1>
+        <div class="gallery__container">
+            <button class="gallery__button gallery__button__left"><img src="images\Pm5ZL.png"></button>
+            <div class="gallery__cards"></div>
+            <button class="gallery__button gallery__button__right"><img src="images\Pm5ZL.png"></button>
+        </div>
+    </div>
+</body>
+<footer>
+    <div id="bubbles">
+        <div class="content" id = "contact">
+            <p>c2023 Алгоритмика</p>
+            <a href="https://vk.com/id533629997">Наш вк</a>
+        </div>
+    </div>
+</footer>
+
+</html>
