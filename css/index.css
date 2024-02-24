@@ -27,6 +27,8 @@ header{
     background-color: black;
     color: white;
     font-family: kamerik-3d;
+    width: calc(var(--index) * 7.8);
+    height: calc(var(--index) * 7.8);
 }
 
 .logo{
